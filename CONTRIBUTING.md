@@ -11,7 +11,7 @@
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square&logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-ff69b4?style=flat-square)](CODE_OF_CONDUCT.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/Biopasks/Relax-Sound/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/Sanot/Relax-Sound/pulls)
 
 </div>
 
@@ -57,11 +57,11 @@ This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By parti
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork
-git clone https://github.com/Biopasks/Relax-Sound.git
+git clone https://github.com/Sanot/Relax-Sound.git
 cd relax-sound
 
 # Add upstream remote
-git remote add upstream https://github.com/Biopasks/Relax-Sound.git
+git remote add upstream https://github.com/Sanot/Relax-Sound.git
 
 # Install dependencies
 npm install
@@ -517,7 +517,7 @@ export async function playSound(
 
 | Channel | Purpose | Response Time |
 |---------|---------|---------------|
-| [GitHub Discussions](https://github.com/Biopasks/Relax-Sound/discussions) | General questions | < 24h |
+| [GitHub Discussions](https://github.com/Sanot/Relax-Sound/discussions) | General questions | < 24h |
 | [Stack Overflow](https://stackoverflow.com/questions/tagged/relax-sound) | Technical questions | Community |
 | @Sanot | Security issues | < 24h |
 | @Sanot | Code of conduct | < 48h |
