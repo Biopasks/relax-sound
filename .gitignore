@@ -103,3 +103,10 @@ _site/
 docs/_build/
 docs/_site/
 .vercel
+
+# Local AI rules (not project-specific)
+AI_RULES.md
+src/AI_RULES.md
+
+# Local templates (not part of this project)
+template/
