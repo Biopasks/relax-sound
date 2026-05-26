@@ -1,0 +1,99 @@
+# ─── Dependencies ───────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Build Output ────────────────────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.crt
+secrets/
+
+# ─── IDE & Editor ────────────────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/*.code-snippets
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+
+# ─── Testing ─────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+reports/
+playwright-report/
+test-results/
+allure-results/
+
+# ─── Logs & Debug ────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ─── Runtime ─────────────────────────────────────────────────────────────────
+.pnp.*
+*.pid
+*.seed
+*.pid.lock
+
+# ─── Capacitor / Native ──────────────────────────────────────────────────────
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ─── TypeScript ──────────────────────────────────────────────────────────────
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# ─── Uploads & Temp ──────────────────────────────────────────────────────────
+uploads/
+tmp/
+temp/
+*.tmp
+
+# ─── OS Generated ────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ─── Documentation ───────────────────────────────────────────────────────────
+site/
+_site/
+docs/_build/
+docs/_site/
+.vercel
