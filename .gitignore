@@ -110,3 +110,4 @@ src/AI_RULES.md
 
 # Local templates (not part of this project)
 template/
+.eslintcache
