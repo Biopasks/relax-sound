@@ -30,7 +30,7 @@ jobs:
             3. 💬 Reply to any questions from maintainers
 
             In the meantime, feel free to:
-            - Email us at korobgreenfield@gmail.com
+            - Email us at 224272286+Biopasks@users.noreply.github.com
             - Check our [Contributing Guide](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md)
             - Browse the [README](https://github.com/${{ github.repository }}#readme)
             `;

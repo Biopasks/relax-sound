@@ -1,27 +1,27 @@
 # Code Owners — Relax Sound
 
-* @YOUR_USERNAME
+* @Sanot
 
 # Core application
-/src/components/      @YOUR_USERNAME
-/src/hooks/           @YOUR_USERNAME
-/src/lib/             @YOUR_USERNAME
-/src/contexts/        @YOUR_USERNAME
+/src/components/      @Sanot
+/src/hooks/           @Sanot
+/src/lib/             @Sanot
+/src/contexts/        @Sanot
 
 # Configuration
-/*.json               @YOUR_USERNAME
-/*.ts                 @YOUR_USERNAME
-/vite.config.ts       @YOUR_USERNAME
-/tailwind.config.ts   @YOUR_USERNAME
+/*.json               @Sanot
+/*.ts                 @Sanot
+/vite.config.ts       @Sanot
+/tailwind.config.ts   @Sanot
 
 # Documentation
-/*.md                 @YOUR_USERNAME
+/*.md                 @Sanot
 
 # GitHub configuration
-/.github/             @YOUR_USERNAME
-/.github/workflows/   @YOUR_USERNAME
+/.github/             @Sanot
+/.github/workflows/   @Sanot
 
 # Security
-/SECURITY.md          @YOUR_USERNAME
-/CONTRIBUTING.md      @YOUR_USERNAME
-/CODE_OF_CONDUCT.md   @YOUR_USERNAME
+/SECURITY.md          @Sanot
+/CONTRIBUTING.md      @Sanot
+/CODE_OF_CONDUCT.md   @Sanot

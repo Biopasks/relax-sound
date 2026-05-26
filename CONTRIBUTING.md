@@ -11,7 +11,7 @@
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square&logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-ff69b4?style=flat-square)](CODE_OF_CONDUCT.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/Sanot/relax-sound/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github)](https://github.com/Biopasks/Relax-Sound/pulls)
 
 </div>
 
@@ -38,7 +38,7 @@
 
 ## Code of Conduct
 
-This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to conduct@relaxsound.app.
+This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to 224272286+Biopasks@users.noreply.github.com.
 
 ---
 
@@ -57,11 +57,11 @@ This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By parti
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork
-git clone https://github.com/Sanot/relax-sound.git
+git clone https://github.com/Biopasks/Relax-Sound.git
 cd relax-sound
 
 # Add upstream remote
-git remote add upstream https://github.com/Sanot/relax-sound.git
+git remote add upstream https://github.com/Biopasks/Relax-Sound.git
 
 # Install dependencies
 npm install
@@ -495,7 +495,7 @@ export async function playSound(
 
 **Do not open public issues for security vulnerabilities.** Instead, follow our [Security Policy](SECURITY.md):
 
-1. Email security@relaxsound.app
+1. Email 224272286+Biopasks@users.noreply.github.com
 2. Include detailed description and reproduction steps
 3. Expect acknowledgment within 24 hours
 4. We will coordinate disclosure timeline
@@ -517,11 +517,10 @@ export async function playSound(
 
 | Channel | Purpose | Response Time |
 |---------|---------|---------------|
-| [GitHub Discussions](https://github.com/Sanot/relax-sound/discussions) | General questions | < 24h |
-| [Email](mailto:korobgreenfield@gmail.com) | Support | [Discord](https://discord.gg/YOUR_INVITE) | Real-time help | < 4h | help | < 24h |
+| [GitHub Discussions](https://github.com/Biopasks/Relax-Sound/discussions) | General questions | < 24h |
 | [Stack Overflow](https://stackoverflow.com/questions/tagged/relax-sound) | Technical questions | Community |
-| security@relaxsound.app | Security issues | < 24h |
-| conduct@relaxsound.app | Code of conduct | < 48h |
+| 224272286+Biopasks@users.noreply.github.com | Security issues | < 24h |
+| 224272286+Biopasks@users.noreply.github.com | Code of conduct | < 48h |
 
 ---
 

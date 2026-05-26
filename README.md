@@ -87,14 +87,6 @@
 
 ---
 
-## Demo
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Biopasks/Relax-Sound/main/docs/assets/demo-hero.gif" alt="Relax Sound Demo" width="720">
-  <br/>
-  <em>Relax Sound — Premium relaxation experience across all devices.</em>
-</p>
-
 ### Screenshots
 
 <p align="center">
@@ -141,31 +133,37 @@ relax-sound/
 │   │   ├── ci.yml                    # Continuous integration
 │   │   ├── codeql.yml                # Security analysis
 │   │   ├── release.yml               # Release & deployment
-│   │   └── stale.yml                 # Issue stale management
+│   │   ├── stale.yml                 # Issue stale management
+│   │   ├── auto-label.yml            # PR auto-labeling
+│   │   └── welcome.yml               # New contributor welcome
 │   ├── ISSUE_TEMPLATE/               # Structured issue forms
+│   │   ├── bug_report.yml
+│   │   ├── feature_request.yml
+│   │   └── config.yml
+│   ├── dependabot.yml                # Dependency automation
+│   ├── CODEOWNERS                    # Code ownership rules
 │   └── PULL_REQUEST_TEMPLATE.md      # PR submission checklist
-├── android/                          # Capacitor Android native project
-├── ios/                              # Capacitor iOS native project
 ├── public/                           # Static assets
 │   ├── audio/                        # Sound sample files
-│   └── images/                       # Public images
+│   ├── font/                         # Custom fonts
+│   └── favicon.ico                   # Site favicon
 ├── src/                              # Application source code
-│   ├── assets/                       # Compiled assets
+│   ├── assets/                       # Audio definitions & assets
+│   ├── capacitor-plugins/            # Capacitor plugin bridges
 │   ├── components/                   # Reusable UI components
 │   │   ├── ui/                       # shadcn/ui primitives
-│   │   ├── audio/                    # Audio player components
-│   │   ├── timer/                    # Timer components
-│   │   ├── visualizer/               # 3D visualizer components
-│   │   ├── mixer/                    # Sound mixer components
-│   │   └── vinyl/                    # Vinyl UI components
+│   │   ├── player/                   # Player panel components
+│   │   └── three/                    # Three.js 3D components
 │   ├── context/                      # React context providers
 │   ├── hooks/                        # Custom React hooks
+│   │   └── animations/               # Animation effect hooks
 │   ├── lib/                          # Utility functions & helpers
 │   ├── pages/                        # Route-level page components
 │   ├── utils/                        # Utility functions
 │   ├── App.tsx                       # Root application component
 │   ├── main.tsx                      # Application entry point
 │   └── globals.css                   # Global styles & Tailwind
+├── screenshots/                      # App screenshots for README
 ├── capacitor.config.ts               # Capacitor configuration
 ├── components.json                   # shadcn/ui configuration
 ├── tailwind.config.ts                # Tailwind CSS configuration
@@ -176,6 +174,7 @@ relax-sound/
 ├── .editorconfig                     # Editor consistency
 ├── .prettierrc                       # Code formatting rules
 ├── .npmrc                            # npm configuration
+├── vercel.json                       # Vercel deployment config
 ├── CONTRIBUTING.md                   # Contributor guide
 ├── CODE_OF_CONDUCT.md                # Community standards
 ├── SECURITY.md                       # Security policy
@@ -270,7 +269,7 @@ Testing infrastructure is configured and ready. Test coverage and reporting will
 |-------|------|----------|-----------------|
 | Unit | Vitest | `src/**/__tests__/` | >= 80% |
 | Component | Testing Library | `src/**/__tests__/` | >= 80% |
-| E2E | Playwright | `e2e/` | Critical paths |
+| E2E | Playwright | `e2e/` | Critical paths (TBD) |
 
 ### Running Tests
 
@@ -388,14 +387,12 @@ A: Place audio files in `public/audio/` and register them in the sound library c
 
 ### Resources
 
-- [Documentation](docs/)
 - [FAQ](#faq)
-- [Troubleshooting Guide](docs/guides/troubleshooting.md)
 - [Support Channels](SUPPORT.md)
 
 ### Professional Support
 
-For enterprise support, custom integrations, and SLAs, please contact us at [korobgreenfield@gmail.com](mailto:korobgreenfield@gmail.com).
+For enterprise support, custom integrations, and SLAs, please contact us at [224272286+Biopasks@users.noreply.github.com](mailto:224272286+Biopasks@users.noreply.github.com).
 
 ---
 

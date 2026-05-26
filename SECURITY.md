@@ -9,8 +9,8 @@
 
 <div align="center">
 
-[![CodeQL](https://img.shields.io/github/actions/workflow/status/Sanot/relax-sound/codeql.yml?branch=main&style=flat-square&logo=codeql&logoColor=white&label=CodeQL)](https://github.com/Sanot/relax-sound/actions/workflows/codeql.yml)
-[![Dependabot](https://img.shields.io/badge/dependabot-active-brightgreen?style=flat-square&logo=dependabot&logoColor=white)](https://github.com/Sanot/relax-sound/security/dependabot)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/Biopasks/Relax-Sound/codeql.yml?branch=main&style=flat-square&logo=codeql&logoColor=white&label=CodeQL)](https://github.com/Biopasks/Relax-Sound/actions/workflows/codeql.yml)
+[![Dependabot](https://img.shields.io/badge/dependabot-active-brightgreen?style=flat-square&logo=dependabot&logoColor=white)](https://github.com/Biopasks/Relax-Sound/security/dependabot)
 
 </div>
 
@@ -50,7 +50,7 @@ If you discover a security vulnerability, **do not** create a public GitHub issu
 
 ### Method 1: Email (Preferred)
 
-Send an email to **security@relaxsound.app** with the following details:
+Send an email to **224272286+Biopasks@users.noreply.github.com** with the following details:
 
 ```
 Subject: [Security Vulnerability] <Brief Description>
@@ -188,8 +188,7 @@ Dependencies with the following characteristics are prohibited:
 
 ## Contact
 
-- **Security Issues**: security@relaxsound.app
-- **PGP Key**: [Download](https://relaxsound.app/pgp-key.asc)
+- **Security Issues**: [224272286+Biopasks@users.noreply.github.com](mailto:224272286+Biopasks@users.noreply.github.com)
 
 ---
 

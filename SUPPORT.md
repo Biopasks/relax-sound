@@ -9,8 +9,7 @@
 
 <div align="center">
 
-[![GitHub Discussions](https://img.shields.io/github/discussions/Sanot/relax-sound?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanot/relax-sound/discussions)
-[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Ask%20a%20question-F58025?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/questions/tagged/relax-sound)
+[![GitHub Discussions](https://img.shields.io/badge/discussions-active-brightgreen?style=flat-square)](https://github.com/Biopasks/Relax-Sound/discussions)
 
 </div>
 
@@ -33,7 +32,7 @@
 
 ### GitHub Discussions 💬
 
-Use [GitHub Discussions](https://github.com/Sanot/relax-sound/discussions) for:
+Use [GitHub Discussions](https://github.com/Biopasks/Relax-Sound/discussions) for:
 - General questions about the project
 - Feature ideas and feedback
 - Show and tell — share what you built
@@ -50,20 +49,8 @@ Use [GitHub Discussions](https://github.com/Sanot/relax-sound/discussions) for:
 | Announcements | Project updates |
 
 
-**Channels:**
 
-| Channel | Purpose |
-|---------|---------|
-| `#general` | General discussion |
-| `#help` | Technical support |
-| `#sound-library` | Share and discover sound presets |
-| `#contributing` | Contribution guidance |
-| `#showcase` | Share your work |
-| `#announcements` | Release and update notifications |
 
-### Stack Overflow
-
-Ask technical questions tagged with `[relax-sound]` on [Stack Overflow](https://stackoverflow.com/questions/tagged/relax-sound).
 
 ---
 
@@ -83,8 +70,8 @@ Ask technical questions tagged with `[relax-sound]` on [Stack Overflow](https://
 
 ### Before Creating an Issue
 
-- [ ] Search existing [issues](https://github.com/Sanot/relax-sound/issues) — yours may already be reported or answered
-- [ ] Search [discussions](https://github.com/Sanot/relax-sound/discussions) — your question may already be answered
+- [ ] Search existing [issues](https://github.com/Biopasks/Relax-Sound/issues) — yours may already be reported or answered
+- [ ] Search [discussions](https://github.com/Biopasks/Relax-Sound/discussions) — your question may already be answered
 - [ ] Check the [FAQ](#faq)
 - [ ] Make sure you are on the latest version
 
@@ -96,7 +83,7 @@ Choose the appropriate template:
 |------------|----------|-------------|
 | 🐛 Bug Report | bug_report.yml | Something is broken |
 | 💡 Feature Request | feature_request.yml | Suggest an enhancement |
-| ❓ Question | question.yml | Ask a question |
+| ❓ Question | GitHub Issues | Ask a question |
 | 🔒 Security Vulnerability | [SECURITY.md](SECURITY.md) | Please do NOT create a public issue |
 
 ---
@@ -111,8 +98,7 @@ For organizations that require:
 - **Custom development** — Sound pack creation and feature customization
 - **Integration support** — Help integrating with your systems
 
-**Contact:** support@relaxsound.app
-**Website:** [https://relaxsound.app/support](https://relaxsound.app/support)
+**Contact:** [224272286+Biopasks@users.noreply.github.com](mailto:224272286+Biopasks@users.noreply.github.com)
 
 ---
 
@@ -133,8 +119,7 @@ For organizations that require:
 
 ### Enterprise Contact
 
-- **Email:** enterprise@relaxsound.app
-- **Website:** [https://relaxsound.app/enterprise](https://relaxsound.app/enterprise)
+- **Email:** [224272286+Biopasks@users.noreply.github.com](mailto:224272286+Biopasks@users.noreply.github.com)
 
 ---
 

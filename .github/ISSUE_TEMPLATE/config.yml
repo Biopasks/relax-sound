@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📖 Documentation
-    url: https://github.com/Sanot/relax-sound#readme
+    url: https://github.com/Biopasks/Relax-Sound#readme
     about: Check the documentation before creating an issue
   - name: 💬 GitHub Discussions
-    url: https://github.com/Sanot/relax-sound/discussions
+    url: https://github.com/Biopasks/Relax-Sound/discussions
     about: Ask questions and discuss ideas
   - name: 🔒 Security Vulnerability
-    url: https://github.com/Sanot/relax-sound/blob/main/SECURITY.md
+    url: https://github.com/Biopasks/Relax-Sound/blob/main/SECURITY.md
     about: Please report security vulnerabilities via our Security Policy
