@@ -76,20 +76,15 @@ const SoundSelection: React.FC = () => {
 
     const isTogglingCurrent = currentNoise?.id === sound.id;
     const isPausing = isTogglingCurrent && isNoisePlaying;
-    
-    // Wait for the sound operation to complete before navigating
-    // This ensures the audio state is properly synchronized
-    try {
-      const result = await playPauseNoise(sound);
-      
-      // Only navigate if we're not pausing and the operation was successful
-      if (!isPausing && result) {
-        navigate('/player');
-      }
-    } catch (e) {
-      console.error("Error during sound playback initiation:", e);
-      // If an error occurred, don't navigate to player page
+
+    if (isPausing) {
+      playPauseNoise(sound);
+      return;
     }
+
+    // Navigate immediately, load audio in background
+    navigate('/player');
+    playPauseNoise(sound);
   };
 
   const handlePanelToggle = (panelName: ActivePanel) => {
