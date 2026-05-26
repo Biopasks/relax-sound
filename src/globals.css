@@ -1,0 +1,410 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Flemmatico';
+  src: url('/audio/Flemmatico Font/Flemmatico Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flemmatico';
+  src: url('/audio/Flemmatico Font/Flemmatico Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flemmatico';
+  src: url('/audio/Flemmatico Font/Flemmatico Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flemmatico';
+  src: url('/audio/Flemmatico Font/Flemmatico Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flemmatico';
+  src: url('/audio/Flemmatico Font/Flemmatico Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Flemmatico';
+  src: url('/audio/Flemmatico Font/Flemmatico Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MTS Wide';
+  src: url('/audio/MTS Wide/MTSWide-Bold-XQ34CV62.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MTS Wide';
+  src: url('/audio/MTS Wide/MTSWide-Medium-MH5A5AEJ.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Etude Noire';
+  src: url('/font/Etude Noire/Etude Noire Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Etude Noire';
+  src: url('/font/Etude Noire/Etude Noire Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Etude Noire';
+  src: url('/font/Etude Noire/Etude Noire Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Etude Noire';
+  src: url('/font/Etude Noire/Etude Noire Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --background: 220 20% 5%;
+    --foreground: 210 20% 90%;
+    --card: 220 15% 8%;
+    --card-foreground: 210 20% 90%;
+    --popover: 220 15% 8%;
+    --popover-foreground: 210 20% 90%;
+    --primary: 210 20% 90%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 15% 12%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 217.2 15% 12%;
+    --muted-foreground: 215 10% 50%;
+    --accent: 217.2 15% 12%;
+    --accent-foreground: 210 20% 90%;
+    --destructive: 0 60% 40%;
+    --destructive-foreground: 210 20% 90%;
+    --border: 217.2 15% 12%;
+    --input: 217.2 15% 12%;
+    --ring: 217.2 15% 12%;
+    --radius: 1rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --magic-accent-blue: 210 20% 90%;
+    --magic-accent-green: 142 76% 36%;
+    --magic-gray-dark: 217 15% 12%;
+    --magic-gray-light: 217 15% 20%;
+    --app-global-bg-start: 220 20% 5%;
+    --app-global-bg-end: 220 20% 10%;
+    --gradient-blue-dark: 217 15% 12%;
+    --gradient-blue-light: 217 15% 20%;
+    --app-dark-blue: 217 15% 12%;
+    --app-light-gray: 217 15% 20%;
+    --app-accent-green: 142 76% 36%;
+    --app-red-lock: 0 60% 40%;
+    --magic-cyan-accent: 180 100% 50%;
+    --magic-cyan-accent-rgb: 0, 255, 255;
+    --magic-accent-blue-rgb: 59, 130, 246;
+    --magic-accent-green-dark: 76, 175, 80;
+    --magic-gray-dark-rgb: 31, 41, 55;
+    --magic-gray-light-rgb: 55, 65, 81;
+    --magic-accent-green-rgb: 76, 175, 80;
+    --magic-red-lock-rgb: 239, 68, 68;
+    --magic-casino-glow: 60, 60, 60;
+    --app-global-accent-rgb: 59, 130, 246;
+    --radio-aura-classic-black-rgb: 0, 0, 0;
+    --radio-aura-deep-blue-rgb: 0, 0, 139;
+    --radio-aura-emerald-green-rgb: 0, 128, 0;
+    --radio-aura-cosmic-purple-rgb: 75, 0, 130;
+    --radio-aura-golden-dawn-rgb: 255, 215, 0;
+    --radio-aura-silver-mist-rgb: 192, 192, 192;
+    --radio-aura-fiery-red-rgb: 220, 20, 60;
+    --radio-aura-forest-night-rgb: 0, 100, 0;
+    --radio-aura-ocean-wave-rgb: 0, 119, 190;
+    --radio-aura-desert-sunset-rgb: 255, 140, 0;
+    --radio-aura-starry-night-rgb: 25, 25, 112;
+    --radio-aura-cloud-dream-rgb: 176, 196, 222;
+    --radio-aura-zen-garden-rgb: 85, 107, 47;
+    --onboarding-bg-color-1-rgb: 59, 130, 246;
+    --onboarding-bg-color-2-rgb: 76, 175, 80;
+    --onboarding-bg-color-3-rgb: 0, 0, 0;
+    --sound-details-bg-start: 220 20% 5%;
+    --sound-details-bg-end: 220 20% 10%;
+    --sound-details-accent: 210 20% 90%;
+    --sound-details-accent-rgb: 59, 130, 246;
+    --magic-green-fire-rgb: 255, 165, 0;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html, body {
+    @apply overflow-hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .animate-border-glow {
+    animation: border-glow 4s ease-in-out infinite;
+  }
+  
+  .animate-glow-subtle {
+    animation: glow-subtle 3s ease-in-out infinite alternate;
+  }
+  
+  .animate-radial-pulse {
+    animation: radial-pulse 4s ease-in-out infinite;
+  }
+  
+  .animate-background-pan {
+    animation: background-pan 30s ease infinite;
+  }
+  
+  .animate-particle-burst {
+    animation: particle-burst 2s ease-out forwards;
+  }
+  
+  .animate-cosmic-pan {
+    animation: cosmic-pan 60s ease-in-out infinite alternate;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-styled::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scrollbar-styled::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 99px;
+    margin: 4px;
+  }
+  .scrollbar-styled::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 99px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    transition: background 0.2s;
+    min-height: 40px;
+  }
+  .scrollbar-styled::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.45);
+    background-clip: content-box;
+  }
+  .scrollbar-styled {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.05);
+  }
+
+  @media (pointer: coarse) {
+    .scrollbar-styled::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+    }
+    .scrollbar-styled::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.3);
+      border: 3px solid transparent;
+      background-clip: content-box;
+    }
+  }
+  
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0px rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.8);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes radial-pulse {
+  0%, 100% {
+    background-image: radial-gradient(circle at center, rgba(var(--magic-gray-light-rgb), 0.1) 0%, rgba(var(--magic-gray-dark-rgb), 0.8) 70%, rgba(var(--magic-gray-dark-rgb), 1) 100%);
+  }
+  50% {
+    background-image: radial-gradient(circle at center, rgba(var(--magic-gray-light-rgb), 0.2) 0%, rgba(var(--magic-gray-dark-rgb), 0.7) 70%, rgba(var(--magic-gray-dark-rgb), 1) 100%);
+  }
+}
+
+@keyframes background-pan {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes particle-burst {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes cosmic-pan {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes glow-subtle {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(var(--app-global-accent-rgb), 0.2);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(var(--app-global-accent-rgb), 0.4);
+  }
+}
+
+@keyframes border-glow {
+  0%, 100% {
+    box-shadow: 0 0 0px 0px rgba(var(--magic-accent-blue-rgb), 0.5);
+    border-color: rgba(var(--magic-accent-blue-rgb), 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px 3px rgba(var(--magic-accent-blue-rgb), 0.8);
+    border-color: rgba(var(--magic-accent-blue-rgb), 0.8);
+  }
+}
