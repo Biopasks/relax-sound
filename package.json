@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit",
     "preview:prod": "vite preview --port 4173",
     "demo": "npx tsx cli/enterprise-gate.ts",
-    "gate": "bun cli/enterprise-gate.ts"
+    "gate": "npx tsx cli/entitlement-gate.ts"
   },
   "dependencies": {
     "@capacitor-community/admob": "^7.0.3",
