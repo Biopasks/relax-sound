@@ -1,1 +1,1 @@
-export * from './NativeBridge';
+export * from '@/core'
