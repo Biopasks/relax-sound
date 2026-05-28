@@ -11,7 +11,9 @@
     "lint": "eslint src/ --cache --cache-location node_modules/.cache/eslint/",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
-    "preview:prod": "vite preview --port 4173"
+    "preview:prod": "vite preview --port 4173",
+    "demo": "npx tsx cli/enterprise-gate.ts",
+    "gate": "bun cli/enterprise-gate.ts"
   },
   "dependencies": {
     "@capacitor-community/admob": "^7.0.3",
